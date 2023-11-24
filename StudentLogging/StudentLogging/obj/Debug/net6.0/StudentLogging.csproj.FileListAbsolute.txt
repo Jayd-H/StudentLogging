@@ -1,0 +1,14 @@
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\bin\Debug\net6.0\StudentLogging.exe
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\bin\Debug\net6.0\StudentLogging.deps.json
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\bin\Debug\net6.0\StudentLogging.runtimeconfig.json
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\bin\Debug\net6.0\StudentLogging.dll
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\bin\Debug\net6.0\StudentLogging.pdb
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.AssemblyInfoInputs.cache
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.AssemblyInfo.cs
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.csproj.CoreCompileInputs.cache
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.dll
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\refint\StudentLogging.dll
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.pdb
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\StudentLogging.genruntimeconfig.cache
+D:\Files\Documents\Repos\DDDAssignment\DDD-Individual-Software-Project\StudentLogging\StudentLogging\obj\Debug\net6.0\ref\StudentLogging.dll

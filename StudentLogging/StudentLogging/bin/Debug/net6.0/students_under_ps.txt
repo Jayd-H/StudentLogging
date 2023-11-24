@@ -1,4 +1,3 @@
-Jayden Holdsworth:Sarah Connor
 Samuel Clubley:Winston Churchill
 Quandale Dingle:Ronald McDonald
 Bruce Wayne:Xena Warrior
@@ -35,3 +34,4 @@ John Doe:Sarah Connor
 Kate Winslet:Ronald McDonald
 Liam Neeson:Timothy Dalton
 Monica Bellucci:Alistair Cookie
+Jayden Holdsworth:Ronald McDonald

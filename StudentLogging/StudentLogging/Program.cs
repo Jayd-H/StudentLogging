@@ -69,7 +69,7 @@ namespace StudentLogging
         {
             var profiles = ProfileIO.LoadProfiles(fileName);
 
-            Console.WriteLine("Select a profile:");
+            Console.WriteLine("Select a profile or enter '0' to go back:");
             for (int i = 0; i < profiles.Count; i++)
             {
                 Console.WriteLine($"{i + 1}. {profiles[i].Name}");
@@ -79,9 +79,14 @@ namespace StudentLogging
             Console.WriteLine("Enter your choice:");
 
             int choice;
-            while (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > profiles.Count + 1)
+            while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > profiles.Count + 1)
             {
                 Console.WriteLine("Invalid choice. Please select again.");
+            }
+
+            if (choice == 0)
+            {
+                return;
             }
 
             Console.Clear();
