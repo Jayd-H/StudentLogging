@@ -10,28 +10,20 @@ namespace StudentLogging
     {
         static void Main(string[] args)
         {
+            // Initialize user management logic
             var userManager = new UserManager();
 
+            // Loop to continuously display the main menu
             while (true)
             {
-                Console.Clear();
-                Console.WriteLine($"----- Main Menu -----");
-                Console.WriteLine("Select your role:");
-                Console.WriteLine("1. Student");
-                Console.WriteLine("2. Personal Supervisor (PS)");
-                Console.WriteLine("3. Senior Tutor (ST)");
-                Console.WriteLine("4. Exit");
-                Console.WriteLine();
-                Console.WriteLine("Enter your choice:");
+                Console.Clear(); // Clears the console for menu display
+                DisplayMainMenu(); // Displays the main menu options
 
                 string choice = Console.ReadLine();
-
                 Console.Clear();
+                DisplayMainMenu(); // Redisplay menu header after input
 
-                // Reprint the main menu header for context
-                Console.WriteLine($"----- Main Menu -----");
-                Console.WriteLine();
-
+                // Process user input
                 switch (choice)
                 {
                     case "1":
@@ -44,14 +36,36 @@ namespace StudentLogging
                         userManager.HandleProfile("st.txt", UserType.SeniorTutor);
                         break;
                     case "4":
+                        // Exit the application
                         return;
                     default:
-                        Console.WriteLine("Invalid choice. Please try again.");
-                        Console.WriteLine("\nPress any key to return to menu...");
-                        Console.ReadKey();
+                        DisplayErrorMessage("Invalid choice. Please try again.");
                         break;
                 }
             }
+        }
+
+        // Method to display the main menu
+        private static void DisplayMainMenu()
+        {
+            Console.WriteLine($"----- Main Menu -----");
+            Console.WriteLine("Select your role:");
+            Console.WriteLine("1. Student");
+            Console.WriteLine("2. Personal Supervisor (PS)");
+            Console.WriteLine("3. Senior Tutor (ST)");
+            Console.WriteLine("4. Exit");
+            Console.WriteLine();
+            Console.WriteLine("Enter your choice:");
+        }
+
+        // Method to display error messages in red
+        private static void DisplayErrorMessage(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(message);
+            Console.ResetColor(); // Reset to default color
+            Console.WriteLine("\nPress any key to return to menu...");
+            Console.ReadKey();
         }
     }
 
