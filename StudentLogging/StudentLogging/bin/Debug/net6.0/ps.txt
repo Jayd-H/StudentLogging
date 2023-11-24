@@ -1,6 +1,6 @@
 Ronald McDonald:ron
 Sarah Connor:sar
-Timothy Dalton:tim
+Timothy Dalton:timothy
 Ulysses Grant:uly
 Violet Baudelaire:vio
 Winston Churchill:win

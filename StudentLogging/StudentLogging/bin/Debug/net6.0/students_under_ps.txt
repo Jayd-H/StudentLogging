@@ -8,7 +8,6 @@ Daniel Sturridge:Zebedee Turner
 Michael Carter:Yvonne Strahovski
 Lucy Foster:Sarah Connor
 James Knight:Ronald McDonald
-Natalie Wood:Ulysses Grant
 Oscar Wilde:Xena Warrior
 Penelope Cruz:Ronald McDonald
 Quentin Adams:Zebedee Turner
@@ -35,3 +34,4 @@ Kate Winslet:Ronald McDonald
 Liam Neeson:Timothy Dalton
 Monica Bellucci:Alistair Cookie
 Jayden Holdsworth:Ronald McDonald
+Natalie Wood:Timothy Dalton
