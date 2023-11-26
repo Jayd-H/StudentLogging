@@ -913,7 +913,6 @@ namespace StudentLogging
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public string Status { get; set; }
         public PersonalSupervisor Supervisor { get; set; } // reference to a PersonalSupervisor
     }
     public class PersonalSupervisor
