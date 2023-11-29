@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging.Tests\\StudentLogging.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging.Tests\\StudentLogging.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging.Tests\\StudentLogging.Tests.csproj",
+        "projectName": "StudentLogging.Tests",
+        "projectPath": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging.Tests\\StudentLogging.Tests.csproj",
+        "packagesPath": "C:\\Users\\holds\\.nuget\\packages\\",
+        "outputPath": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\holds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\StudentLogging.csproj": {
+                "projectPath": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\StudentLogging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\StudentLogging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\StudentLogging.csproj",
+        "projectName": "StudentLogging",
+        "projectPath": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\StudentLogging.csproj",
+        "packagesPath": "C:\\Users\\holds\\.nuget\\packages\\",
+        "outputPath": "D:\\Files\\Documents\\Repos\\DDDAssignment\\DDD-Individual-Software-Project\\StudentLogging\\StudentLogging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\holds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
